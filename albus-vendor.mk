@@ -48,11 +48,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/albus/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/motorola/albus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/albus/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/motorola/albus/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/motorola/albus/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/motorola/albus/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
     vendor/motorola/albus/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/motorola/albus/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
+    vendor/motorola/albus/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/motorola/albus/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/motorola/albus/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/motorola/albus/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
@@ -60,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/albus/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/motorola/albus/proprietary/lib64/libmodhw.so:system/lib64/libmodhw.so \
+    vendor/motorola/albus/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/motorola/albus/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/motorola/albus/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/motorola/albus/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
@@ -1246,4 +1249,5 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     rcsimssettings \
     tcmclient \
-    qti-vzw-ims-internal
+    qti-vzw-ims-internal \
+    WfdCommon
